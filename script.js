@@ -10,7 +10,7 @@ var y = 0;
 getRandom = () => {
   randX = Math.floor(Math.random() * width) + 0;
   randY = Math.floor(Math.random() * height) + 0;
-    console.log("Moving to position X:" + randX + ", Y:" + randY);
+  console.log("Moving to position X:" + randX + ", Y:" + randY);
   startPos = [x, y];
   endPos = [randX, randY];
 }
